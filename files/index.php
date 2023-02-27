@@ -5,3 +5,4 @@ if (isset($_POST["comment"])) {
  $comment = $_POST["comment"];
 }
 echo "Comment=$comment";
+?>
