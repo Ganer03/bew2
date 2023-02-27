@@ -4,4 +4,4 @@ $comment = "";
 if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST["comment"])) {
  $comment = $_POST["comment"];
 }
-echo "Comment: $comment";
+echo "Comment=$comment";
